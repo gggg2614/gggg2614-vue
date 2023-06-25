@@ -1,0 +1,28 @@
+{
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve",
+    "docs:dev": "vuepress dev docs ",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "gggg2614",
+  "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
