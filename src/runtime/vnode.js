@@ -41,5 +41,7 @@ export function h(type, props, children) {
     type,
     props,
     children,
+    el:null,
+    anchor:null
   };
 }

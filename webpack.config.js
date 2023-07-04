@@ -8,9 +8,11 @@ const config = {
   output: {
     filename: "mini-vue.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
   devServer: {
     host: "localhost",
+    static:'./dist'
   },
   plugins: [
     new HtmlWebpackPlugin({
